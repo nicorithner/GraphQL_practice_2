@@ -25,7 +25,16 @@ Must have node.js installed
     - license: MIT   // free for people to use
     -  yes
 
-4. Run  `$ npm install express express-graphql  graphql nodemon  --save`
+4. Install dependencies
+
+    - Install express, express-graphql, graphql, and nodemon:
+
+      `$ npm install express express-graphql  graphql nodemon  --save`
+
+    - Install json-server and axis
+
+      `$ npm install json-server axios --save`
+
 
 5. Touch server.js in the main directory, in my case with VSCode `$ code server.js` 
 
@@ -44,15 +53,35 @@ app.listen(4000, () => {
 “dev:server: “nodemon server.js”
 ```
 
-7. Test it out in the terminal with:
+7. Test it out in the terminal
 
-    `$ npm run dev:server`
+    Run `$ npm run json-server`
 
-<hr/>
+    Then view JSON Server in localhost:3000
+
+    Run `$ npm run dev:server`
+
+    Then view in Graphical in localhost:4000
+
+    **Run queries in Graphiql(localhost:4000)**
+
+<p>
+  <hr/>
+</p>
 
 ## Sample Code
 
 <p align="center">
   <img src="sample_query_customer.png" width='500'><br/>
   <small>Sample Query and Code</small>
+</p>
+
+<p align="center">
+  <img src="customers_query_graphiql.png" width='500'><br/>
+  <small>Sample Customers Query Graphiql</small>
+</p>
+
+<p align="center">
+  <img src="customers_query_json-server.png" width='500'><br/>
+  <small>Sample Customers view JSON Server</small>
 </p>
