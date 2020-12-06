@@ -85,3 +85,15 @@ app.listen(4000, () => {
   <img src="customers_query_json-server.png" width='500'><br/>
   <small>Sample Customers view JSON Server</small>
 </p>
+<p align="center">
+  <img src="Add_Customer.png" width='500'><br/>
+  <small>Sample Add Customer Mutation</small>
+</p>
+<p align="center">
+  <img src="edit_customer.png" width='500'><br/>
+  <small>Sample Edit Customer Mutation</small>
+</p>
+<p align="center">
+  <img src="delete_customer.png" width='500'><br/>
+  <small>Sample Delete Customer Mutation</small>
+</p>
