@@ -30,11 +30,23 @@
       "email": "paco@flamenco.com",
       "age": 70
     },
-    { 
+    {
       "name": "Harry White",
       "email": "harry@gmail.com",
       "age": 34,
       "id": "rytP7hhUW"
+    },
+    {
+      "name": "Maria",
+      "email": "maria@foo.com",
+      "age": 20,
+      "id": "pLGY_5-"
+    },
+    {
+      "name": "Mariu",
+      "email": "mariu@foo.com",
+      "age": 23,
+      "id": "Oqua-A7"
     }
   ]
 }
